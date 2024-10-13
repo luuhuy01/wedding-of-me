@@ -41,23 +41,21 @@ export default function Home() {
   return (
     <>
       <Head>
+        <link rel="icon" href="D:\13.change_data\4.project\1.invent\wedding-of-me\public\assets\GroovePaper.png" type="image/x-icon" />
+
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:type" content="website" />
         <meta content="Quang Huy❤Tuyết Nhung Wedding" name="Title" />
         <meta
-          content="○○○○년 ○○월 ○○일 ○요일 오전 ○○시 ○○분"
+          content="10 giờ 00 phút, ngày mùng 10 tháng 11 năm 2024"
           name="Description"
         />
-        <meta content="○○○○년 ○○월 ○○일 ○요일 오전 ○○시 ○○분" name="Keyword" />
+        <meta content="10 giờ 00 phút, ngày mùng 10 tháng 11 năm 2024" name="Keyword" />
         <meta property="og:title" content="Quang Huy❤Tuyết Nhung Wedding" />
         <meta
           property="og:description"
-          content="○○○○년 ○○월 ○○일 ○요일 오전 ○○시 ○○분"
-        />
-        <meta
-          property="og:url"
-          content="https://kyuhyuk.kr/wedding-invitation"
+          content="10 giờ 00 phút, ngày mùng 10 tháng 11 năm 2024"
         />
         <meta name="theme-color" content="#BCAAA4" />
         <title>Quang Huy❤Tuyết Nhung Wedding</title>
@@ -70,7 +68,7 @@ export default function Home() {
         <Location />
         <CongratulatoryMoney data={JsonData} />
         <Share data={JsonData} />
-        <Footer>Copyright © 2021 KyuHyuk Lee</Footer>
+        <Footer>Developer Lưu Huy</Footer>
       </main>
     </>
   );

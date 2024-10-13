@@ -1,38 +1,38 @@
 {
-  "date": "1970년 01월 01일, 목요일 오전 12시 00분",
-  "location": "○○○웨딩, ○층 ○○홀",
+  "date": "10 Giờ 00 Phút, Ngày 10 Tháng 11 Năm 2024",
+  "location": "Nhà trai: Thôn Phú Thứ, xã Thượng Trưng, huyện Vĩnh Tường, tỉnh Vĩnh Phúc - Nhà gái: Thôn Quảng Phúc, xã Yên Bài, huyện Ba Vì, TP. Hà Nội",
   "gretting": "서로 마주 보며 다져온 사랑을\n이제 함께 한곳을 바라보며 걸어갈 수 있는\n큰 사랑으로 키우고자 합니다.\n저희 두 사람이 사랑의 이름으로 지켜나갈 수 있게\n앞날을 축복해 주시면 감사하겠습니다.",
   "groom": {
-    "name": "○○○",
+    "name": "Quang Huy",
     "account_number": "○○은행 ***-***-******",
     "parents": {
       "mother": {
-        "name": "○○○",
+        "name": "Lương Thị Dung",
         "account_number": "○○은행 ***-***-******"
       },
       "father": {
-        "name": "○○○",
+        "name": "Lưu Thanh Sơn",
         "account_number": "○○은행 ***-***-******"
       }
     }
   },
   "bride": {
-    "name": "○○○",
+    "name": "Tuyết Nhung",
     "account_number": "○○은행 ***-***-******",
     "parents": {
       "mother": {
-        "name": "○○○",
+        "name": "Phương Văn Tiến",
         "account_number": "○○은행 ***-***-******"
       },
       "father": {
-        "name": "○○○",
+        "name": "Nguyễn Thị Thực",
         "account_number": "○○은행 ***-***-******"
       }
     }
   },
   "kakaotalk": {
     "api_token": "",
-    "wedding_invitation_url": "",
+    "wedding_invitation_url": "http://invite.huynhungwedding.com/",
     "share_image": ""
   }
 }
