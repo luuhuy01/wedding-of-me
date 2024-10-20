@@ -103,9 +103,9 @@ export default function Share({ data }: ShareProps) {
   return (
     <Wrapper>
       <Divider plain style={{ marginTop: 0, marginBottom: 32 }}>
-        <Title>청첩장 공유하기</Title>
+        <Title>Chia sẻ lời mời đám cưới của bạn</Title>
       </Divider>
-      <KakaoTalkShareButton
+      {/* <KakaoTalkShareButton
         style={{ margin: 8 }}
         icon={<MessageFilled />}
         id="sendKakao"
@@ -113,15 +113,15 @@ export default function Share({ data }: ShareProps) {
         onClick={() => setShareCount(shareCount + 1)}
       >
         카카오톡으로 공유하기
-      </KakaoTalkShareButton>
+      </KakaoTalkShareButton> */}
       <CopyToClipboard text={data?.kakaotalk?.wedding_invitation_url ?? ""}>
         <LinkShareButton
           style={{ margin: 8 }}
           icon={<LinkOutlined />}
           size="large"
-          onClick={() => message.success("청첩장 링크가 복사되었습니다.")}
+          onClick={() => message.success("Liên kết lời mời đám cưới đã được sao chép.")}
         >
-          링크로 공유하기
+          Chia sẻ với liên kết
         </LinkShareButton>
       </CopyToClipboard>
     </Wrapper>

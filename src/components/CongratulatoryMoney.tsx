@@ -61,16 +61,16 @@ export default function CongratulatoryMoney({
   return (
     <Wrapper>
       <Divider plain style={{ marginTop: 0, marginBottom: 32 }}>
-        <Title>축하의 마음을 전하세요</Title>
+        <Title>GỬI LỜI CHÚC CỦA BẠN</Title>
       </Divider>
-      <Content>축하의 마음을 담아 축의금을 전달해 보세요.</Content>
+      <Content>Hãy gửi một món quà để bày tỏ lời chúc mừng của bạn.</Content>
       <ContactButton onClick={() => setGroomVisible(true)}>
         <CheckCircleTwoTone
           style={{ fontSize: 64, marginBottom: 16 }}
           twoToneColor="#829fe0"
         />
         <br />
-        <SubContent>신랑측 계좌번호 확인</SubContent>
+        <SubContent>Xác nhận số tài khoản của chú rể</SubContent>
       </ContactButton>
       <ContactButton onClick={() => setBrideVisible(true)}>
         <CheckCircleTwoTone
@@ -78,10 +78,10 @@ export default function CongratulatoryMoney({
           twoToneColor="#fe7daf"
         />
         <br />
-        <SubContent>신부측 계좌번호 확인</SubContent>
+        <SubContent>Xác nhận số tài khoản của cô dâu</SubContent>
       </ContactButton>
       <Modal
-        title={<b>신랑측 계좌번호</b>}
+        title={<b>Số tài khoản của chú rể</b>}
         open={groomVisible}
         onOk={() => setGroomVisible(false)}
         onCancel={() => setGroomVisible(false)}
@@ -91,7 +91,7 @@ export default function CongratulatoryMoney({
       >
         {data?.groom?.parents?.father && (
           <div>
-            <b>부) {data?.groom?.parents?.father?.name}</b>
+            <b>Bố: {data?.groom?.parents?.father?.name}</b>
             <Divider type="vertical" />
             <CopyToClipboard
               text={data?.groom?.parents?.father?.account_number}
@@ -99,7 +99,7 @@ export default function CongratulatoryMoney({
               <Button
                 type="text"
                 style={{ padding: 0, margin: 0 }}
-                onClick={() => message.success("계좌번호가 복사되었습니다.")}
+                onClick={() => message.success("Số tài khoản đã được sao chép.")}
               >
                 {data?.groom?.parents?.father?.account_number}
               </Button>
@@ -108,13 +108,13 @@ export default function CongratulatoryMoney({
         )}
         {data?.groom?.parents?.mother && (
           <div style={{ marginTop: 24, marginBottom: 24 }}>
-            <b>모) {data?.groom?.parents?.mother.name}</b>
+            <b>Mẹ: {data?.groom?.parents?.mother.name}</b>
             <Divider type="vertical" />
             <CopyToClipboard text={data?.groom?.parents?.mother.account_number}>
               <Button
                 type="text"
                 style={{ padding: 0, margin: 0 }}
-                onClick={() => message.success("계좌번호가 복사되었습니다.")}
+                onClick={() => message.success("Số tài khoản đã được sao chép.")}
               >
                 {data?.groom?.parents?.mother.account_number}
               </Button>
@@ -123,13 +123,13 @@ export default function CongratulatoryMoney({
         )}
         {data?.groom && (
           <div>
-            <b>신랑 {data?.groom?.name}</b>
+            <b>Chú rể: {data?.groom?.name}</b>
             <Divider type="vertical" />
             <CopyToClipboard text={data?.groom?.account_number}>
               <Button
                 type="text"
                 style={{ padding: 0, margin: 0 }}
-                onClick={() => message.success("계좌번호가 복사되었습니다.")}
+                onClick={() => message.success("Số tài khoản đã được sao chép.")}
               >
                 {data?.groom?.account_number}
               </Button>
@@ -138,12 +138,12 @@ export default function CongratulatoryMoney({
         )}
         <div>
           <Description>
-            계좌번호 클릭시, 붙여넣기 가능한 텍스트로 복사됩니다.
+              Khi bạn bấm vào số tài khoản, nó sẽ được sao chép dưới dạng văn bản có thể dán được.
           </Description>
         </div>
       </Modal>
       <Modal
-        title={<b>신부측 계좌번호</b>}
+        title={<b>Số tài khoản của cô dâu</b>}
         open={brideVisible}
         onOk={() => setBrideVisible(false)}
         onCancel={() => setBrideVisible(false)}
@@ -153,7 +153,7 @@ export default function CongratulatoryMoney({
       >
         {data?.bride?.parents?.father && (
           <div>
-            <b>부) {data?.bride?.parents?.father?.name}</b>
+            <b>Bố: {data?.bride?.parents?.father?.name}</b>
             <Divider type="vertical" />
             <CopyToClipboard
               text={data?.bride?.parents?.father?.account_number}
@@ -161,7 +161,7 @@ export default function CongratulatoryMoney({
               <Button
                 type="text"
                 style={{ padding: 0, margin: 0 }}
-                onClick={() => message.success("계좌번호가 복사되었습니다.")}
+                onClick={() => message.success("Số tài khoản đã được sao chép.")}
               >
                 {data?.bride?.parents?.father?.account_number}
               </Button>
@@ -170,7 +170,7 @@ export default function CongratulatoryMoney({
         )}
         {data?.bride?.parents?.mother && (
           <div style={{ marginTop: 24, marginBottom: 24 }}>
-            <b>모) {data?.bride?.parents?.mother?.name}</b>
+            <b>Mẹ: {data?.bride?.parents?.mother?.name}</b>
             <Divider type="vertical" />
             <CopyToClipboard
               text={data?.bride?.parents?.mother?.account_number}
@@ -178,7 +178,7 @@ export default function CongratulatoryMoney({
               <Button
                 type="text"
                 style={{ padding: 0, margin: 0 }}
-                onClick={() => message.success("계좌번호가 복사되었습니다.")}
+                onClick={() => message.success("Số tài khoản đã được sao chép.")}
               >
                 {data?.bride?.parents?.mother?.account_number}
               </Button>
@@ -187,13 +187,13 @@ export default function CongratulatoryMoney({
         )}
         {data?.bride && (
           <div>
-            <b>신부 {data?.bride?.name}</b>
+            <b>Chú rể: {data?.bride?.name}</b>
             <Divider type="vertical" />
             <CopyToClipboard text={data?.bride?.account_number}>
               <Button
                 type="text"
                 style={{ padding: 0, margin: 0 }}
-                onClick={() => message.success("계좌번호가 복사되었습니다.")}
+                onClick={() => message.success("Số tài khoản đã được sao chép.")}
               >
                 {data?.bride?.account_number}
               </Button>
@@ -202,7 +202,7 @@ export default function CongratulatoryMoney({
         )}
         <div>
           <Description>
-            계좌번호 클릭시, 붙여넣기 가능한 텍스트로 복사됩니다.
+          Khi bạn bấm vào số tài khoản, nó sẽ được sao chép dưới dạng văn bản có thể dán được.
           </Description>
         </div>
       </Modal>

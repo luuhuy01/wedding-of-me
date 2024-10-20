@@ -42,7 +42,7 @@ export default function Home() {
     <>
       <Head>
         <link rel="icon" href="D:\13.change_data\4.project\1.invent\wedding-of-me\public\assets\GroovePaper.png" type="image/x-icon" />
-
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet" />
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:type" content="website" />

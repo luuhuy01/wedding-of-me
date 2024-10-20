@@ -1,32 +1,32 @@
 {
   "date": "10 Giờ 00 Phút, Ngày 10 Tháng 11 Năm 2024",
   "location": "Nhà trai: Thôn Phú Thứ, xã Thượng Trưng, huyện Vĩnh Tường, tỉnh Vĩnh Phúc - Nhà gái: Thôn Quảng Phúc, xã Yên Bài, huyện Ba Vì, TP. Hà Nội",
-  "gretting": "서로 마주 보며 다져온 사랑을\n이제 함께 한곳을 바라보며 걸어갈 수 있는\n큰 사랑으로 키우고자 합니다.\n저희 두 사람이 사랑의 이름으로 지켜나갈 수 있게\n앞날을 축복해 주시면 감사하겠습니다.",
+  "gretting": "Cuộc đời là những hành trình, và chặng đường hạnh phúc\n nhất của chúng tôi sắp bắt đầu. Trong ngày đặc biệt này,\n sự có mặt của bạn không chỉ làm tăng thêm niềm vui,\n mà còn là món quà tinh thần quý báu. Chúng tôi xin mời\n bạn đến dự lễ cưới của chúng tôi để chia sẻ những khoảnh\n khắc hạnh phúc và cùng nhau kỷ niệm một ngày không thể\n nào quên. Mong rằng sự hiện diện của bạn sẽ góp phần làm\n nên sự trọn vẹn cho ngày vui này.",
   "groom": {
     "name": "Quang Huy",
-    "account_number": "○○은행 ***-***-******",
+    "account_number": "8386",
     "parents": {
       "mother": {
         "name": "Lương Thị Dung",
-        "account_number": "○○은행 ***-***-******"
+        "account_number": "8386"
       },
       "father": {
         "name": "Lưu Thanh Sơn",
-        "account_number": "○○은행 ***-***-******"
+        "account_number": "8386"
       }
     }
   },
   "bride": {
     "name": "Tuyết Nhung",
-    "account_number": "○○은행 ***-***-******",
+    "account_number": "8386",
     "parents": {
       "mother": {
-        "name": "Phương Văn Tiến",
-        "account_number": "○○은행 ***-***-******"
+        "name": "Nguyễn Thị Thực",
+        "account_number": "8386"
       },
       "father": {
-        "name": "Nguyễn Thị Thực",
-        "account_number": "○○은행 ***-***-******"
+        "name": "Phương Văn Tiến",
+        "account_number": "8386"
       }
     }
   },

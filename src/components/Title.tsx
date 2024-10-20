@@ -34,9 +34,10 @@ const VideoBackground = styled("video", {
 });
 
 const WeddingInvitation = styled("p", {
-  fontSize: "1.5vh",
-  opacity: 0.45,
+  fontSize: "7vh",
+  opacity: 1,
   marginBottom: 16,
+  fontFamily: "'Great Vibes', cursive", // Font chữ thanh lịch
 });
 
 const GroomBride = styled("p", {
@@ -63,14 +64,12 @@ export default function Title({ data }: TitleProps) {
         <source src="./assets/BackgroundVideo.mp4" type="video/mp4" />
       </VideoBackground>
       <TitleWrapper>
-        <WeddingInvitation>WEDDING INVITATION</WeddingInvitation>
+        <WeddingInvitation>Thư mời cưới</WeddingInvitation>
         <GroomBride>
           {data?.groom?.name} &#10084; {data?.bride?.name}
         </GroomBride>
         <Schedule>
           {data?.date}
-          <br />
-          {data?.location}
         </Schedule>
       </TitleWrapper>
     </Layout>

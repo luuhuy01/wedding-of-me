@@ -53,9 +53,9 @@ export default function Gretting({ data }: GrettingProps) {
         })}
       </Content>
       <GroomBride>
-        {data?.groom?.name} con trai của ông bà{" "}{data?.groom?.parents?.father?.name} ·{" "}{data?.groom?.parents?.mother?.name}
+        {/* {data?.groom?.name} con trai của ông bà{" "}{data?.groom?.parents?.father?.name} ·{" "}{data?.groom?.parents?.mother?.name} */}
         <br />
-        {data?.bride?.name} con gái của ông bà{" "}{data?.bride?.parents?.father?.name} ·{" "}{data?.bride?.parents?.mother?.name}
+        {/* {data?.bride?.name} con gái của ông bà{" "}{data?.bride?.parents?.father?.name} ·{" "}{data?.bride?.parents?.mother?.name} */}
       </GroomBride>
     </Wrapper>
   );
